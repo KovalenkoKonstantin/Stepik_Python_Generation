@@ -60,5 +60,8 @@
 # print('Привет,', name)
 # name = 'Timur'
 # print('Привет,', name)
-name, surname = 'Timur', 'Guev'
-print('Имя:', name, 'Фамилия:', surname)
+# name, surname = 'Timur', 'Guev'
+# print('Имя:', name, 'Фамилия:', surname)
+language = 'Python'
+language = 'Pascal'
+print(language)
