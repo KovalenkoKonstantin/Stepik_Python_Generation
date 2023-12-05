@@ -62,6 +62,45 @@
 # print('Привет,', name)
 # name, surname = 'Timur', 'Guev'
 # print('Имя:', name, 'Фамилия:', surname)
-language = 'Python'
-language = 'Pascal'
-print(language)
+# language = 'Python'
+# language = 'Pascal'
+# print(language)
+# s1 = 'C++'
+# s2 = 'Python'
+# s3 = 'Java'
+# s3 = s2
+# s1 = s3
+# print(s1)
+# print('Java')
+# print('Ruby')
+# print('Scala')
+# print('Python', end='+')  # print('C++')
+# # print('GO')
+# print('C#', end='=')  # print('C')
+# print('awesome')
+# finish
+# num = 7
+# num1 = 10
+# num2 = num + num1
+# print(num2)
+# s = 0
+# k = 30
+# d = k - 5
+# k = 2 * d
+# s = k - 100
+# print(s)
+# x = 3
+# y = 4
+# z = x + y
+# z = z + 1
+# x = y
+# y = 5
+# x = z + y + 7
+# print(x)
+# a = 4
+# print(a, "a")
+# a = int(input())
+# print(a)
+# print(a + 1)
+# print(a + 2)
+print(int(input()) + int(input()) + int(input()))
