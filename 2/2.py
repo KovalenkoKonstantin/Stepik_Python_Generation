@@ -137,5 +137,8 @@
 # print(a + b)
 # a = 82 // 3 ** 2 % 7
 # print(a)
-b, q, n = int(input()), int(input()), int(input())
-print(b * q ** (n - 1))
+# b, q, n = int(input()), int(input()), int(input())
+# print(b * q ** (n - 1))
+# print(int(input()) // 100)
+n, k, = int(input()), int(input())
+print(k // n, k % n, sep='\n')
