@@ -149,5 +149,25 @@
 # print(n // 2 + n % 2)
 # from math import ceil
 # print(ceil(int(input())/4))
-x = int(input())
-print(x, ' мин - это ', x // 60, ' час ', x % 60, ' минут.', sep='')
+# x = int(input())
+# print(x, ' мин - это ', x // 60, ' час ', x % 60, ' минут.', sep='')
+# num = int(input())
+# a = num % 10
+# b = (num % 100) // 10
+# c = num // 100
+#
+# print('Сумма цифр = ', a + b + c, sep='')
+# print('Произведение цифр = ', a * b * c, sep='')
+# num = int(input())
+# c = num % 10
+# b = (num % 100) // 10
+# a = num // 100
+# print(a, b, c, sep='')
+# print(a, c, b, sep='')
+# print(b, a, c, sep='')
+# print(b, c, a, sep='')
+# print(c, a, b, sep='')
+# print(c, b, a, sep='')
+
+a, b, c = input()
+print(a + b + c, a + c + b, b + a + c, b + c + a, c + a + b, c + b + a, sep='\n')
