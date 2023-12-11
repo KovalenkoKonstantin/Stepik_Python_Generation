@@ -140,5 +140,14 @@
 # b, q, n = int(input()), int(input()), int(input())
 # print(b * q ** (n - 1))
 # print(int(input()) // 100)
-n, k, = int(input()), int(input())
-print(k // n, k % n, sep='\n')
+# n, k, = int(input()), int(input())
+# print(k // n, k % n, sep='\n')
+# from math import ceil
+#
+# n = int(input())
+# print(ceil(n/2))
+# print(n // 2 + n % 2)
+# from math import ceil
+# print(ceil(int(input())/4))
+x = int(input())
+print(x, ' мин - это ', x // 60, ' час ', x % 60, ' минут.', sep='')
