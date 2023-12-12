@@ -169,5 +169,17 @@
 # print(c, a, b, sep='')
 # print(c, b, a, sep='')
 
-a, b, c = input()
-print(a + b + c, a + c + b, b + a + c, b + c + a, c + a + b, c + b + a, sep='\n')
+# a, b, c = input()
+# print(a + b + c, a + c + b, b + a + c, b + c + a, c + a + b, c + b + a, sep='\n')
+# a, b, c, d = input()
+# print('Цифра в позиции тысяч равна ' + a)
+# print('Цифра в позиции сотен равна ' + b)
+# print('Цифра в позиции десятков равна ' + c)
+# print('Цифра в позиции единиц равна ' + d)
+n = 12345
+print(n // 10000)
+print(n % 10000 // 1000)
+print(n % 1000 // 100)
+print(n % 100 // 10)
+print(n % 10)
+
