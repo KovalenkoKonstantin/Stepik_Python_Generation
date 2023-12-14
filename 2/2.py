@@ -176,10 +176,24 @@
 # print('Цифра в позиции сотен равна ' + b)
 # print('Цифра в позиции десятков равна ' + c)
 # print('Цифра в позиции единиц равна ' + d)
-n = 12345
-print(n // 10000)
-print(n % 10000 // 1000)
-print(n % 1000 // 100)
-print(n % 100 // 10)
-print(n % 10)
+# n = 12345
+# print(n // 10000)
+# print(n % 10000 // 1000)
+# print(n % 1000 // 100)
+# print(n % 100 // 10)
+# print(n % 10)
 
+# a = int(input())
+# b = int(input())
+# print('Квадрат суммы', a, 'и', b, 'равен', pow((a + b), 2))
+# print('Сумма квадратов', a, 'и', b, 'равна', pow(a, 2) + pow(b, 2))
+#
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+#
+# print(pow(a, b) + pow(c, d))
+
+n = int(input())
+print(n * 123)
